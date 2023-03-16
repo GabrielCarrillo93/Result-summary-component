@@ -1,0 +1,155 @@
+html{
+    font-size: 18px;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    /*border: 1px solid red;*/
+}
+
+body{
+    margin: 10% 33.3%;
+    
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    clear: left;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+  main{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+
+section{
+    width:50%;
+    float: left;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+#result{
+    background: rgb(120,87,255);
+    background: -moz-linear-gradient(top, rgb(120,87,255) 0%, rgb(46,43,233) 100%);
+    background: -webkit-linear-gradient(top, rgb(120,87,255) 0%, rgb(46,43,233) 100%);
+    background: linear-gradient(to bottom, rgb(120,87,255) 0%, rgb(46,43,233) 100%);
+    color: white;
+}
+
+#summary{
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+
+#reaction{
+    color: hsl(0, 100%, 67%);
+    width: 50%;
+    float: left;
+ 
+}
+
+#memory{
+    color: hsl(39, 100%, 56%);
+    width: 50%;
+    float: left;
+
+}
+
+#verbal{
+    color: hsl(166, 100%, 37%);
+    width: 50%;
+    float: left;
+  
+}
+
+#visual{
+    color: hsl(234, 85%, 45%);
+    width: 50%;
+    float: left;
+    
+}
+
+button{
+    width: 80%;
+    border-radius: 50px;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    padding: 15px;
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin: 30px;
+}
+
+button:hover{
+    background: rgb(120,87,255);
+    background: -moz-linear-gradient(top, rgb(120,87,255) 0%, rgb(46,43,233) 100%);
+    background: -webkit-linear-gradient(top, rgb(120,87,255) 0%, rgb(46,43,233) 100%);
+    background: linear-gradient(to bottom, rgb(120,87,255) 0%, rgb(46,43,233) 100%);
+}
+
+.percent{
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;
+    display: inline;
+    float:inline-end;
+}
+
+.result{
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+    float:inline-end;
+}
+
+img{
+    display: inline;
+    float: left;
+    margin: 0 10px;
+}
+
+.linea{
+    width: 100%;
+    clear: left;
+    margin: 30px;
+}
+
+.result, .percent{
+    text-align: right;
+}
+
+#summary h2{
+    color: hsl(224, 30%, 27%)
+}
+
+p{
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+}
+
+#number{
+    font-size: 3.5rem;
+}
+
+#circle{
+    background: #4E21CA00;
+    background: -moz-linear-gradient(top, #4E21CA 0%, #2421ca00 100%);
+    background: -webkit-linear-gradient(top, #4E21CA 0%, #2421ca00 100%);
+    background: linear-gradient(to bottom, #4E21CA 0%, #2421ca00 100%);
+    text-align: center;
+    border-radius: 50%;
+    width:50%;
+    margin: 10% 25%;
+    overflow: visible;
+}
+
+#result h2{
+    text-align: center;
+}
